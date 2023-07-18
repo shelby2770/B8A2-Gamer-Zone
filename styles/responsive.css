@@ -1,0 +1,26 @@
+/* Tablet view */
+@media (max-width: 960px) {
+  .options {
+    flex-direction: column;
+  }
+}
+
+
+/* Mobile view */
+@media (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    margin-top: 20%;
+  }
+
+  .options {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  .more-links {
+    margin-bottom: 10%;
+  }
+}
+
+

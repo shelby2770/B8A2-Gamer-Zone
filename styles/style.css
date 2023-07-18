@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+nav {
+  max-height: 15vh;
+  padding: 46px 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.intro-tag {
+  display: flex;
+  flex-basis: 50%;
+  align-items: center;
+  text-align: center;
+  gap: 2%;
+}
+
+.intro-tag h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.intro-tag span {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.options {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.options a {
+  max-width: 1/3em;
+  text-decoration: none;
+  color: black;
+}
+
+.fuo {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 15px;
+}
+
+.nav_icon {
+  padding: 2%;
+}
