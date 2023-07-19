@@ -47,6 +47,10 @@
     font-size: small;
   }
 
+  .category-game{
+    height: 75vh;
+  }
+
   .buttonXDD{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);    
@@ -88,6 +92,25 @@
     grid-column: 3/3;
     grid-row: 3/3;
   }
+
+  .more-tags{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50%;
+    margin: 10% 0%;
+  }
+
+  .social-media-icons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10%;
+    margin-bottom: 10%;
+  }
+
+  .social-media-icons svg{
+    width: 90%;
+    height: 90%;
+  }
 }
 
 
@@ -117,6 +140,42 @@
   }
 
   .career{
+    font-size: x-small;
+  }
+
+  .more-tags{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50%;
+    margin: 10% 0%;
+  }
+
+  .gamer-icon .logo img{
+    width: 80%;
+    height: 80%;
+  }
+  .social-media-icons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10%;
+    margin-bottom: 10%;
+  }
+
+  .social-media-icons svg{
+    width: 90%;
+    height: 90%;
+  }
+
+  .conclusions{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);     
+  }
+
+  .copyright{
+    padding: 2% 25%;
+  }
+  
+  .game_name{
     font-size: x-small;
   }
 }
