@@ -3,6 +3,50 @@
   .options {
     flex-direction: column;
   }
+
+  .banner {
+    max-height: fit-content;
+    flex-direction: column-reverse;
+  }
+
+  .text-part {
+    align-items: center;
+    background-size: cover;
+  }
+
+  .description {
+    max-height: fit-content;
+    flex-direction: column;
+  }
+
+  .desc-txt {
+    align-items: center;
+    margin: 0% 20%;
+    text-align: center;
+  }
+
+  .game-card-desc {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 5%;
+  }
+
+  .advertisement {
+    max-height: fit-content;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .img-adv{
+    margin-top: 5%;
+    max-width: 100%;
+  }
+
+  .career{
+    flex-direction: column;
+    padding-right: 4em;
+    font-size: small;
+  }
+
 }
 
 
@@ -10,7 +54,7 @@
 @media (max-width: 576px) {
   nav {
     flex-direction: column;
-    margin-top: 20%;
+    margin: 20% 0%;
   }
 
   .options {
@@ -21,6 +65,17 @@
   .more-links {
     margin-bottom: 10%;
   }
+
+  .game-card-desc {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 2%;
+  }
+
+  .text-adv{
+    font-size: small;
+  }
+
+  .career{
+    font-size: x-small;
+  }
 }
-
-

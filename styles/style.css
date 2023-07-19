@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@400;800&display=swap');
 
 * {
   margin: 0;
@@ -58,4 +58,258 @@ nav {
 
 .nav_icon {
   padding: 2%;
+}
+
+.banner {
+  display: flex;
+  max-height: 80vh;
+}
+
+.text-part {
+  flex-basis: 50%;
+  background-image: url(../images/Group\ 14.png);
+  background-size: contain;
+  padding: 5em 4em;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .text-part h1{
+  text-align: center;
+} */
+
+.rgba-txt {
+  font-weight: 800px;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 8px 0px;
+}
+
+.icon-para {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+
+.para {
+  color: #534C64;
+  font-family: Work Sans;
+  font-weight: 500;
+  font-size: small;
+}
+
+.button {
+  display: flex;
+  margin-top: 10px;
+  /* justify-content: space-between; */
+}
+
+.button-1, .rev_button:hover{
+  color: white;
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  transition-duration: 0.4s;
+}
+
+#bt1 {
+  margin-right: 10px;
+}
+
+.button-1:hover, .rev_button{
+  color: #FF42A5;
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 48px;
+  background: white
+}
+
+.button-2 {
+  color: white;
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 48px;
+  background: #4EC5F7;
+  transition-duration: 0.4s;
+}
+
+.button-2:hover {
+  color: #4EC5F7;
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 48px;
+  background: white
+}
+
+.banner-image {
+  flex-basis: 50%;
+  margin-right: 8%;
+}
+
+.banner-image img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+.description {
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  display: flex;
+}
+
+.desc-img {
+  flex-basis: 60%;
+}
+
+.desc-img img {
+  width: 100%;
+  /* height: 100%; */
+  padding: 5em 4em;
+}
+
+.desc-txt {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  align-items: end;
+  padding: 5em 0em;
+  margin-right: 8%;
+  /* justify-content: space-around; */
+  text-align: end;
+}
+
+.vid-games {
+  margin: 5% 2%;
+}
+
+
+.tag {
+  text-align: center;
+}
+
+.game-card-desc {
+  display: grid;
+  padding: 5em 4em;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.piece {
+  width: 100%;
+  gap: 2%;
+  align-items: center;
+  text-align: center;
+}
+
+.piece .game-card img {
+  width: 95%;
+  height: auto;
+  object-fit: cover;
+}
+
+.advertisement {
+  max-width: 100vw;
+  display: flex;
+  padding: 5em 4em;
+  text-align: right;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-adv {
+  max-width: 60%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.clr1 {
+  background: #F948B2;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.img-adv {
+  max-width: 40%;
+  position: relative;
+  margin-left: 10%;
+}
+
+.img-adv .max_image{
+  max-width: 100%;
+}
+
+.mini_image {
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 55%;
+  left: -20%;
+}
+
+.clr2 {
+  background: #875bed;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.advV2{
+  flex-direction: row-reverse;
+}
+
+.revV2{
+  left: 60%;
+}
+
+.career{
+  /* max-height: 80vh; */
+  margin-top: 10%;
+  display: flex;
+  background: url(../images/Group\ 14.png);
+  background-size: cover;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  color: white;
+  padding-left: 4em;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+.career-text{
+  /* max-width: 60%; */
+  padding-top: 5%;
+  justify-content: space-between;
+}
+
+.contribution{
+  display: flex;
+  flex-direction: column;
+}
+
+.identity{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .career-img{
+  max-width: 40%;
+} */
+
+.career-img img{
+  width: 100%;
+  height: auto;
+}
+
+.category-game{
+  margin: 10%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.buttonXD{
+  display: flex;
+  align-items: center;
 }
