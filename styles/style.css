@@ -431,7 +431,7 @@ footer {
   padding: 3% 20%;
 }
 
-.social-media-icons{
+.social-media-icons {
   display: flex;
   padding: 0% 35%;
   padding-bottom: 4%;
@@ -441,14 +441,57 @@ footer {
   justify-content: space-around;
 }
 
-.cx{
+.cx {
   color: rgba(255, 255, 255, 0.60);
 }
 
-.conclusions{
+.conclusions {
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
   gap: 3%;
+}
+
+
+.game-card {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+  cursor: pointer;
+}
+
+.content {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.game-card:hover .overlay {
+  opacity: 0.8;
+  border-radius: 16px;
+}
+
+.watch_now {
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: smaller;
 }
